@@ -1,0 +1,43 @@
+1. Start with a nessage:
+ -- you encountered a dragon
+ 2. while loop will keep the game going
+ -- User nust enter 1 or 2
+ -- if the user enters something else, let them know they screwed up and give them option again
+ 3. If the choose "run" (1 or 2), call them a coward and give them the option of playing again.
+ -- if they don't want to play again you can run sys.exit (import sys)
+ 4. if they choose "fight" (the not run option), then init the hero and dragon health
+ -- ideally/bonus, hero and dragon are classes
+ 5. ask the user if they want to 1,2,3 (attack, spell, or defend)
+ -- if user enters something bogus, handle it (dragon gets a free shot or you just ask them again)
+ -- optionally add a method to the hero class. hero.fight(), hero.spell()
+ 6. update the dragon health based on the outcome
+ -- import random
+ 7. randomize the dragon's attack (based on the hero's ... did defend or spell)
+ 8.update hero health
+ 9. check if anyone is dead and handle
+ 10. if both alive, repeat to 5
+
+
+
+ SCRUM MEETING #1
+
+What can we do?
+	we can start the game
+	we can fight or run
+	we can exit the game
+	can fight or defend (both dragon or hero)
+	health is affected by attacks and factors in defenses
+	dragon weighted in its decision-making to attack more than it gets distracted
+	distracted dragon means times two damage if hero attacks
+
+What do we want to do?
+	low-health = attack bonus
+	multiple enemies
+	larger story to game (possibly travel options)
+	damsel in distress aspect?
+	potions need to be a thing... for real
+	xp and leveling up - Whaaaaaat?!
+	randomize periodic enemies
+	turn into wizard
+	get a crossbow/just get other cool weapons
+	
